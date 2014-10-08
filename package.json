@@ -1,0 +1,34 @@
+{
+  "author": "Yuki Akiyama <you2197901 [at] gmail.com>",
+  "name": "limit-request-promise",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "request-promise" : "0.2.0",
+    "bluebird" : "2.3.2",
+    "request-limitter" : "0.0.1"
+  },
+  "readmeFilename": "README.md",
+  "description": "limit request",
+  "main": "index.js",
+  "devDependencies": {
+    "bluebird" : "",
+    "mocha" : "",
+    "power-assert" : ""
+  },
+  "scripts": {
+    "test": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/you21979/node-limit-request-promise.git"
+  },
+  "keywords": [
+    "limit request",
+    "crawler"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/you21979/node-limit-request-promise/issues"
+  }
+}
