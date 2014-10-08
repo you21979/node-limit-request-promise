@@ -9,7 +9,7 @@
     "request-limitter" : "0.0.1"
   },
   "readmeFilename": "README.md",
-  "description": "limit request",
+  "description": "http request for web scraping",
   "main": "index.js",
   "devDependencies": {
     "bluebird" : "",
@@ -24,7 +24,8 @@
     "url": "git://github.com/you21979/node-limit-request-promise.git"
   },
   "keywords": [
-    "limit request",
+    "http request",
+    "web scraping",
     "crawler"
   ],
   "license": "MIT",
