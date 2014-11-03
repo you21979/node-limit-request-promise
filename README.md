@@ -11,17 +11,17 @@ example
 
 ```
 var LimitRequestPromise = require('limit-request-promise');
-var lrp = new LimitRequestPromise(1,1); // option = default limit
+var lp = new LimitRequestPromise(1,1); // option = default limit
 // register database
 lr.setup([
 {
     host:'http://www.example.com',max:1000,sec:60
 }
 ]);
-lr.req('http://www.yahoo.co.jp').then(console.log); // immediately
-lr.req('http://www.yahoo.co.jp').then(console.log); // next timing
-lr.req({url:'http://www.google.com'}).then(console.log); // immediately 
-lr.req({url:'http://www.google.com'}).then(console.log); // next timing
+lp.req('http://www.yahoo.co.jp').then(console.log); // immediately
+lp.req('http://www.yahoo.co.jp').then(console.log); // next timing
+lp.req({url:'http://www.google.com'}).then(console.log); // immediately 
+lp.req({url:'http://www.google.com'}).then(console.log); // next timing
 ```
 
 license
