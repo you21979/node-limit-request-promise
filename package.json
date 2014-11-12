@@ -5,7 +5,7 @@
   "private": false,
   "dependencies": {
     "bluebird" : "2.3.2",
-    "request-promise" : "0.2.4",
+    "request-promise" : "0.3.1",
     "request-limitter" : "0.0.1"
   },
   "readmeFilename": "README.md",
