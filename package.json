@@ -4,8 +4,8 @@
   "version": "0.0.9",
   "private": false,
   "dependencies": {
-    "bluebird": "2.10.x",
-    "request-promise" : "1.0.x",
+    "bluebird": "^2.3",
+    "request-promise" : "2.0.x",
     "request-limitter" : "0.0.1"
   },
   "readmeFilename": "README.md",
