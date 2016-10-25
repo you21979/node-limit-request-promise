@@ -1,11 +1,11 @@
 {
   "author": "Yuki Akiyama <you2197901 [at] gmail.com>",
   "name": "limit-request-promise",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "dependencies": {
-    "bluebird": "^3.3",
-    "request-promise" : "3.0.0",
+    "@you21979/promise-sleep": "1.0.*",
+    "request-promise" : "4.1.*",
     "request-limitter" : "0.0.1"
   },
   "readmeFilename": "README.md",
