@@ -6,7 +6,7 @@
   "dependencies": {
     "@you21979/promise-sleep": "1.0.*",
     "request-promise" : "4.1.*",
-    "request-limitter" : "0.0.1"
+    "request-limitter" : "0.0.2"
   },
   "readmeFilename": "README.md",
   "description": "http request for web scraping",
@@ -16,7 +16,7 @@
     "power-assert" : ""
   },
   "scripts": {
-    "test": ""
+    "test": "./node_modules/.bin/mocha"
   },
   "repository": {
     "type": "git",
