@@ -12,6 +12,8 @@
   "description": "http request for web scraping",
   "main": "index.js",
   "devDependencies": {
+    "promise-util-task" : "",
+    "request" : "",
     "mocha" : "",
     "power-assert" : ""
   },
